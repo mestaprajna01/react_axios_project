@@ -1,0 +1,17 @@
+.App{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+    flex-direction: row;
+    background-color: rgb(240, 18, 166);
+}
+td{
+    border: 1px solid rgba(179, 4, 4, 0.749);
+    background-color: rgb(224, 184, 135);
+}
+h2{
+    color:rgb(40, 16, 223);
+    margin-left: 650px;
+}

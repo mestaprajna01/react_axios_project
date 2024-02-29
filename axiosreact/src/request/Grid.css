@@ -1,0 +1,51 @@
+.App{
+    border: 1px solid black;
+}
+h2{
+    color:rgb(114, 45, 233);
+    margin-left: 650px;
+
+}
+
+.ghead{
+    border: 1px solid rgb(227, 209, 92); 
+    display:grid;
+    grid-template-columns: 10%  35% 55% ;
+    
+
+    
+}
+.ghead .a1{
+    
+    border: 1px solid  rgb(227, 209, 92); 
+
+}
+
+.ghead .a2{
+    border: 1px solid  rgb(227, 209, 92);
+}
+
+.ghead .a3{
+    border: 1px solid   rgb(227, 209, 92);
+}
+
+.gbody{
+    border: 1px solid  rgb(238, 48, 181); 
+    display:grid;
+    grid-template-columns: 10%  35%  55%;
+}
+.gbody .a4{
+    border: 1px solid rgb(238, 48, 181); 
+  
+   
+}
+
+.gbody .a5{
+    border: 1px solid rgb(238, 48, 181); 
+    align-items: center;
+}
+
+.gbody .a6{
+    border: 1px solid  rgb(238, 48, 181); 
+    align-items: center;
+}
