@@ -1,0 +1,34 @@
+.App{
+    border: 1px solid blue;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 10px;
+
+}
+
+.card{
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+
+}
+td{
+    border:1px rgb(10, 7, 7);
+    background-color: rgb(194, 195, 203);
+    
+}
+
+th{
+    border: 1px solid black;
+    background-color: rgb(228, 138, 202);
+    
+}
+
+h2{
+    text-align: center;
+    color:purple;
+    
+}

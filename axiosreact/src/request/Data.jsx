@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 // import './DataTable.css';
-import Table from 'react-bootstrap/Table';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function DataTable() {
   const [data, setData] = useState([]);
@@ -23,7 +21,7 @@ function DataTable() {
   return (
     <div>
       <h2>Data Table</h2>
-      <Table striped bordered hover>
+      <table>
         <thead>
           <tr>
             <th>ID </th>
@@ -45,7 +43,7 @@ function DataTable() {
             </tr>
           ))}
         </tbody>
-       </Table>
+      </table>
     </div>
   );
 }
